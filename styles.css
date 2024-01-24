@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: forestgreen;
+  text-align: center;
+  color: white;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1561470872-2e4b48435150?q=80&w=2974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: antiquewhite;
+  position: absolute;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.search_menu input {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: black;
+  font-family: inherit;
+  font-size: 105%;
+}
+
+.search_menu button {
+  padding: 8px;
+  background-color: darkgray;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+}
+.weather {
+  border: 1px solid red;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
